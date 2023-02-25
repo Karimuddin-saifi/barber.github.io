@@ -3,7 +3,7 @@
 
 /* text-selection */
 ::selection{
-    background-color: #3700ff;
+    background-color: #009688;
     color:rgb(255, 255, 255);
 }
 
@@ -16,6 +16,10 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    position:relative;
+}
+html{
+    scroll-behavior: smooth;
 }
 
 /*--------------banner--------------*/
@@ -130,12 +134,13 @@ nav li a {
     background: #009688;
     text-align: center;
     position: fixed;
-    right: 30px;
-    top: 20px;
-    border-radius:3px;
+    right:15px;
+    top: 15px;
+    border-radius:50%;
     z-index: 100;
     cursor: pointer;
-    border:1px solid #fff;
+    border:2px solid #000;
+    
 }
 
 #menuBtn img {
@@ -283,7 +288,7 @@ nav li a {
     text-align: center;
     color: #fff;
     border-radius: 7px;
-    /* display: block; */
+    display: block;
     position: relative;
     cursor: pointer;
 }
@@ -481,32 +486,16 @@ nav li a {
 
 #banner .page-top{
     position:fixed;
-    right:0;
-    bottom:0;
-    margin:10px 15px;
-    width:75px;
-    height:23px;
-    border-radius:5px;
-    border:1px solid;
-    z-index:1;
-    padding:2px;;
+    right:15px;
+    bottom:15px;
+    border-radius:8px;
+    z-index:100;
+    padding:5px;
+    border:0.5px solid#000;
 }
 #banner .page-top a{
     text-decoration:none;
     color:#000;
-}
-
-/* Footer Clock  */
-.clock{
-    max-width: 200px;
-    aspect-ratio: 1/1;
-    border: 5px solid rgba(0, 34, 255, 0.1);
-    border-radius: 50%;
-    background: #2d5171;
-    box-shadow: -4px -4px 10px rgba(67, 67, 67, 0.5), inset 4px 4px 10px rgba(0, 0, 0, 0.5), inset -4px -4px 10px rgba(0, 0, 0, 0.5), inset 4px 4px 10px rgba(0, 0, 0, 0.3);
-    /* position: relative; */
-    /* position: absolute; */
-    
 }
 
 
